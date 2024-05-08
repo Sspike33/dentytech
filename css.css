@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(223, 219, 219)
+}
+.main{
+    height: 500px;
+    width: 80%;
+    background-color: white;
+    border-radius: 0.6rem;
+    margin-left: 10%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4rem ;
+    margin: auto;
+    margin-top: 7rem;
+}
+.button{
+    height: 2rem;
+    width: 3.5rem;
+    border: .1rem solid black;
+    border-radius: .8rem;
+}
+.navbar h1{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.signup{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+#text1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    position: absolute;
+    top: 45%;
+    left: 31%;
+    font-weight: 300;
+}
+img{
+    height: 30%;
+    border: 2px solid black;
+    border-radius: 1rem;
+    position: absolute;
+    top: 34%;
+    left: 46%;
+
+}
+#img1{
+    transform: rotate(-30deg);
+}
+#img2{
+    transform: rotate(-20deg);
+}
+#img3{
+    transform: rotate(-10deg);
+}
+#p1{
+    position: absolute;
+    top: 75%;
+    left: 11.8%;
+    font-weight: 550;
+}
+#instaicon{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 75%;
+    left: 80%;
+}
+#faceicon{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 75%;
+    left: 81.6%;
+}
+#p2{
+    position: absolute;
+    top: 78%;
+    left: 78%;
+    font-weight: 550;
+}
+#downicon{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+}
